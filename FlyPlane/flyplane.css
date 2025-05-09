@@ -1,0 +1,13 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+#board {
+  background-image: url("./flyplanebg.png");
+  background-size: auto; /* Uses image's natural size */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: auto;
+  height: auto;
+  display: inline-block; /* Prevents element from collapsing */
+}
